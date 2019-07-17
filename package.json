@@ -19,6 +19,13 @@
 				"command": "extension.magicComment",
 				"title": "Magic Comment"
 			}
+		],
+		"keybindings": [
+			{"command": "extension.magicComment",
+			"key": "ctrl+/",
+			"mac": "cmd+/",
+			"when": "editorTextFocus && !editorReadonly"
+			}
 		]
 	},
 	"scripts": {

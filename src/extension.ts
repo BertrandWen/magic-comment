@@ -14,7 +14,7 @@ export function activate(context: ExtensionContext) {
 	// The commandId parameter must match the command field in package.json
 	let disposable = commands.registerCommand('extension.magicComment', () => {
 		// The code you place here will be executed every time your command is executed
-		
+
 		// magic comment part
 		magic_comment();
 	});
@@ -28,7 +28,7 @@ function magic_comment() {
 	editor.selections.forEach(async selection => {
 		for (let i = selection.start.line; i <= selection.end.line; i++) {
 			const position = editor.selection.active;
-			var newPosition = position.with(i, 0);
+			var newPosition = position.with(i, 65536);
 			var newSelection = new Selection(newPosition, newPosition);
 			editor.selection = newSelection;
 			await commands.executeCommand('editor.action.commentLine');
