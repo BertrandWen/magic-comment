@@ -2,6 +2,8 @@
 	"name": "magic-comment",
 	"displayName": "magic comment",
 	"description": "comment with magic feature",
+	"icon": "imgs/magic-comment.png",
+	"publisher": "wwen",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
@@ -9,6 +11,10 @@
 	"categories": [
 		"Other"
 	],
+	"repository": {
+        "type": "git",
+        "url": "https://github.com/HughWen/magic-comment"
+    },
 	"activationEvents": [
 		"onCommand:extension.magicComment"
 	],
