@@ -1,7 +1,7 @@
 {
 	"name": "magic-comment",
-	"displayName": "magic comment",
-	"description": "comment with magic feature",
+	"displayName": "Magic Comment",
+	"description": "Magic comment.",
 	"icon": "imgs/magic-comment.png",
 	"publisher": "wwen",
 	"version": "0.0.1",
