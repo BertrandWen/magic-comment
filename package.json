@@ -17,7 +17,7 @@
 		"commands": [
 			{
 				"command": "extension.magicComment",
-				"title": "Magic Comment!"
+				"title": "Magic Comment"
 			}
 		]
 	},
