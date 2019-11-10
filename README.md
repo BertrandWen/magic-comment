@@ -6,11 +6,14 @@ A magic comment command.
 
 - **Magic Comment** A magic comment command, which will comment the uncomment part and uncomment the comment part when the selection content contains both of them.
 
+![ctrl + /](imgs/gifs/magic-comment.gif)
+
 ## Keyboard Shortcuts
 
 | Key                                               | Command                      |
 | ------------------------------------------------- | ---------------------------- |
 | <kbd>Ctrl</kbd> + <kbd>/</kbd>                    | Magic Comment                |
+
 
 ## Release Notes
 
