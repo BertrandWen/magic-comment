@@ -2,9 +2,9 @@
 	"name": "magic-comment",
 	"displayName": "Magic Comment",
 	"description": "Magic comment.",
-	"icon": "imgs/magic-comment.png",
+	"icon": "imgs/magic-comment-2.png",
 	"publisher": "wwen",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
