@@ -1,5 +1,8 @@
 # Magic Comment README
 
+[![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/wwen.magic-comment)](https://marketplace.visualstudio.com/items?itemName=wwen.magic-comment)
+[![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/wwen.magic-comment)](https://marketplace.visualstudio.com/items?itemName=wwen.magic-comment)
+
 A magic comment command.
 
 ## Features
@@ -10,9 +13,9 @@ A magic comment command.
 
 ## Keyboard Shortcuts
 
-| Key                                               | Command                      |
-| ------------------------------------------------- | ---------------------------- |
-| <kbd>Ctrl</kbd> + <kbd>/</kbd>                    | Magic Comment                |
+| Key                            | Command       |
+| ------------------------------ | ------------- |
+| <kbd>Ctrl</kbd> + <kbd>/</kbd> | Magic Comment |
 
 
 ## Release Notes
