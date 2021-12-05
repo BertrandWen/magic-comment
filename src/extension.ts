@@ -22,20 +22,35 @@ export function activate(context: ExtensionContext) {
 	context.subscriptions.push(disposable);
 }
 
-function magic_comment() {
+async function magic_comment() {
 	const editor = window.activeTextEditor;
 	const doc = editor.document;
-	editor.selections.forEach(async selection => {
+	// editor.selections.forEach(async selection => {
+	// 	for (let i = selection.start.line; i <= selection.end.line; i++) {
+	// 		console.log(i);
+	// 		const position = editor.selection.active;
+	// 		var newPosition = position.with(i, 65536);
+	// 		var newSelection = new Selection(newPosition, newPosition);
+	// 		editor.selection = newSelection;
+	// 		await commands.executeCommand('editor.action.commentLine');
+
+	// 	}
+	// });
+
+	for (var selection of editor.selections) {
 		for (let i = selection.start.line; i <= selection.end.line; i++) {
 			const position = editor.selection.active;
+			// console.log(editor.document.lineAt(i).isEmptyOrWhitespace);
+			if (editor.document.lineAt(i).isEmptyOrWhitespace)
+				continue;
 			var newPosition = position.with(i, 65536);
 			var newSelection = new Selection(newPosition, newPosition);
 			editor.selection = newSelection;
 			await commands.executeCommand('editor.action.commentLine');
 		}
-	});
+	}
 }
 
 
 // this method is called when your extension is deactivated
-export function deactivate() {}
+export function deactivate() { }
