@@ -25,17 +25,6 @@ export function activate(context: ExtensionContext) {
 async function magic_comment() {
 	const editor = window.activeTextEditor;
 	const doc = editor.document;
-	// editor.selections.forEach(async selection => {
-	// 	for (let i = selection.start.line; i <= selection.end.line; i++) {
-	// 		console.log(i);
-	// 		const position = editor.selection.active;
-	// 		var newPosition = position.with(i, 65536);
-	// 		var newSelection = new Selection(newPosition, newPosition);
-	// 		editor.selection = newSelection;
-	// 		await commands.executeCommand('editor.action.commentLine');
-
-	// 	}
-	// });
 
 	for (var selection of editor.selections) {
 		for (let i = selection.start.line; i <= selection.end.line; i++) {
