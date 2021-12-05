@@ -20,6 +20,10 @@ A magic comment command.
 
 ## Release Notes
 
+### 1.1.0
+
+- Make it work in multi-cursor
+- Skip the empty line (advise by [d0ob](https://github.com/d0ob))
 
 ### 1.0.0
 

@@ -4,7 +4,7 @@
 	"description": "Magic comment.",
 	"icon": "imgs/magic-comment-2.png",
 	"publisher": "wwen",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
